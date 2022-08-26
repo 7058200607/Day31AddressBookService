@@ -12,3 +12,5 @@ insert into Address_Book values('Mrunali','Pawar','Garkheda','aurangabd','MH',43
 insert into Address_Book values('Punam','patil','samarthNagar','aurangabad','MH',431001,8920060781,'punampatil896@gmai.com');
 insert into Address_Book values('saurabh','patil','cidco','aurangabad','MH',431001,9620060781,'saurabhp59@gmai.com');
 insert into Address_Book values('ajay','wagh','cidco','aurangabad','MH',431001,7020060781,'ajaywagh9@gmai.com');
+---UC5 Edit data 
+Update Address_Book set FName ='mayuri' where FName='vrushali'
