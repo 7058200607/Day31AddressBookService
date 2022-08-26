@@ -14,3 +14,5 @@ insert into Address_Book values('saurabh','patil','cidco','aurangabad','MH',4310
 insert into Address_Book values('ajay','wagh','cidco','aurangabad','MH',431001,7020060781,'ajaywagh9@gmai.com');
 ---UC5 Edit data 
 Update Address_Book set FName ='mayuri' where FName='vrushali'
+---UC6 
+select count (state) from Address_Book
