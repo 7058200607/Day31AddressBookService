@@ -16,3 +16,5 @@ insert into Address_Book values('ajay','wagh','cidco','aurangabad','MH',431001,7
 Update Address_Book set FName ='mayuri' where FName='vrushali'
 ---UC6 
 select count (state) from Address_Book
+---UC7 ability to retrieve all data of city or state form address book
+select *from Address_Book where City ='aurangabad'or State='MH';
